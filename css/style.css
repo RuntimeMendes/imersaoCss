@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+   }
+   .fundo{    background:url("https://www.infomoney.com.br/wp-content/uploads/2019/10/shutterstock_1422026900.jpg?w=768&quality=75&strip=all");     
+     background-size :auto 100vh;
+     height: 100vh;
+  
+    }
+    .container{
+     backdrop-filter:blur(10px);- webkit-backdrop-filter:blur(10px); 
+     height: 100vh; 
+  }
+    
+    .menu ul {
+      display:flex;
+      justify-content:space-around;
+    
+    }
+   .menu li{
+      list-style :none;
+    }
+    .menu{
+      background-color:orange;
+    }
+   
+    a{
+      text-decoration:none;
+    }
+    a:hover{
+      text-decoration:underline;
+    
+    }
+  h1{
+    text-align : center;
+    color : #E6E6FA;
+    padding-top : 150px;
+  }
+  h2{
+    text-align:center;
+  }
